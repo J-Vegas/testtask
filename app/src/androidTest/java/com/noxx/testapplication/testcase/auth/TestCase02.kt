@@ -19,7 +19,7 @@ class TestCase02() : BaseTest() {
         AuthScreen(device).etLogin.setText(login)
         AuthScreen(device).etLogin.text.equals(login)
         AuthScreen(device).btnLogin.click()
-        AuthScreen(device).message.text.equals("Необходимо ввести пароль")
+        AuthScreen(device).message.text.equals("Необходимо ввести логин и пароль")
         AuthScreen(device).btnOk.click()
 
         AuthScreen(device).etLogin.clearTextField()
